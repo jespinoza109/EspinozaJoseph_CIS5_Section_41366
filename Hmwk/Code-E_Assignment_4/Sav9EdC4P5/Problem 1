@@ -1,0 +1,40 @@
+/* 
+ * File:   Gaddis_9thEd_Ch.2_Prob1_
+ * Author: Joseph Espinoza
+ * Created on January 10, 2021, 12:00 PM
+ * Purpose:  1.) Sum of Two Integers
+ */
+
+//System Libraries
+#include <iostream>  //I/O Library
+using namespace std;
+
+//User Libraries
+
+//Global Constants
+//Math, Science, Universal, Conversions, High Dimensioned Arrays
+
+//Function Prototypes
+
+//Execution Begins Here
+int main(int argc, char** argv) {
+    //Initialize the Random Number Seed
+    
+    //Declare Variables
+    unsigned short Int_A, //First Integer
+                   Int_B, //Second Integer
+                   Total; //Sum of first and second integer
+    
+    //Initialize Variable
+    Int_A=50; 
+    Int_B=100;
+    
+    //Map Inputs to Outputs -> Process
+    Total =Int_A+Int_B;//Answer
+    
+    //Display Inputs/Outputs
+    cout<<"Total = "<<static_cast<int>(Total)<<"(answer)";
+    
+    //Exit the Program - Cleanup
+    return 0;
+}
